@@ -1,0 +1,63 @@
+@import "variables";
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+a{
+	text-decoration:none;
+}
+.header{
+	width:960px;
+	margin:0 auto;
+	background-color:#f5f6f0;
+}
+header{
+	display:flex;
+	justify-content:space-around;
+	width:100%;
+	background-color:$bgcolor;
+	align-items:center;
+}
+nav ul li{
+	display:inline-block;
+}
+nav ul li a{
+	padding-right:30px;
+	color:$color;
+}
+.banner img{
+	width:100%;
+}
+.paragraph{
+	margin:25px auto;
+	text-align:justify;
+	width:95%;
+}
+.sections{
+	display:flex;
+	justify-content:space-around;
+}
+.child{
+	border:2px solid #e6cfb5;	
+	width:30%;
+	text-align:center;
+	background-color:#ededea;
+}
+.child p{
+	padding: 10px 20px;
+	text-align:justify;
+}
+.child h3{
+	padding-top:20px;
+}
+footer{
+	background-color:#72736d;
+	margin-top:20px;
+	height:50px;
+}
+.footer p{
+	padding: 17px 0 ;
+	margin-left:20px;
+}
